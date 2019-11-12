@@ -5,7 +5,7 @@
 		<Option title="sharedPtr"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\tools\gate\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.hunter\;CMake Files\..\..\..\.hunter\_Base\;CMake Files\..\..\..\.hunter\_Base\Download\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\modules\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\configs\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\projects\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\projects\GTest\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\scripts\;CMake Files\..\..\..\.hunter\_Base\70287b1\;CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\;CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\;CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\;CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\;CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\;CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\GTest\;CMake Files\cmake-build-default\;CMake Files\cmake-build-default\_3rdParty\;CMake Files\cmake-build-default\_3rdParty\Hunter\;CMake Files\cmake-build-default\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-default\_3rdParty\Hunter\config-id\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tools\;CMake Files\tools\gate\;CMake Files\tools\gate\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\.hunter\;CMake Files\..\..\..\.hunter\_Base\;CMake Files\..\..\..\.hunter\_Base\Download\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\modules\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\configs\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\projects\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\cmake\projects\GTest\;CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\scripts\;CMake Files\..\..\..\.hunter\_Base\70287b1\;CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\;CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\;CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\;CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\;CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\;CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\GTest\;CMake Files\cmake-build-default\;CMake Files\cmake-build-default\_3rdParty\;CMake Files\cmake-build-default\_3rdParty\Hunter\;CMake Files\cmake-build-default\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-default\_3rdParty\Hunter\config-id\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/anton/AKnuazev/labs/lab03_shared_ptr/cmake-build-default"/>
@@ -35,7 +35,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/anton/AKnuazev/labs/lab03_shared_ptr/include"/>
-					<Add directory="/home/anton/.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/include"/>
+					<Add directory="/home/anton/.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
@@ -59,7 +59,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/anton/AKnuazev/labs/lab03_shared_ptr/include"/>
-					<Add directory="/home/anton/.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/include"/>
+					<Add directory="/home/anton/.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.1.0/../../../../include/c++/9.1.0/backward"/>
@@ -490,23 +490,23 @@
 		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/Download/Hunter/0.23.34/70287b1/Unpacked/scripts/create-toolchain-info.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\Download\Hunter\0.23.34\70287b1\Unpacked\scripts\"/>
 		</Unit>
-		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/169c9bc/b8f46c4/config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\"/>
+		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/bcfb592/b8f46c4/config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\"/>
 		</Unit>
-		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/lib/cmake/GTest/GTestConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\GTest\"/>
+		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/lib64/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\GTest\"/>
 		</Unit>
-		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/lib/cmake/GTest/GTestConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\GTest\"/>
+		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/lib64/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\GTest\"/>
 		</Unit>
-		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/lib/cmake/GTest/GTestTargets-debug.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\GTest\"/>
+		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/lib64/cmake/GTest/GTestTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\GTest\"/>
 		</Unit>
-		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/lib/cmake/GTest/GTestTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\GTest\"/>
+		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/lib64/cmake/GTest/GTestTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\GTest\"/>
 		</Unit>
-		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/169c9bc/b8f46c4/Install/lib/cmake/GTest/GTestTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\169c9bc\b8f46c4\Install\lib\cmake\GTest\"/>
+		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/../../../.hunter/_Base/70287b1/bcfb592/b8f46c4/Install/lib64/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\.hunter\_Base\70287b1\bcfb592\b8f46c4\Install\lib64\cmake\GTest\"/>
 		</Unit>
 		<Unit filename="/home/anton/AKnuazev/labs/lab03_shared_ptr/cmake-build-default/_3rdParty/Hunter/toolchain/toolchain.info.NOLF">
 			<Option virtualFolder="CMake Files\cmake-build-default\_3rdParty\Hunter\toolchain\"/>

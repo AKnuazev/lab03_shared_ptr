@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.4)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-option(BUILD_COVERAGE "Build coverage" OFF)
+option(BUILD_COVERAGE "Build coverage" ON)
 
 set(
         HUNTER_CACHE_SERVERS
@@ -72,3 +72,14 @@ add_test(NAME unit_tests COMMAND tests)
 add_library(SharedPtr STATIC sources/SharedPtr.cpp)
 add_executable(main sources/main.cpp)
 target_link_libraries(main SharedPtr)
+
+if(BUILD_COVERAGE)
+    set(ENABLE_COVERAGE ON CACHE BOOL "Enable coverage build." FORCE)
+    list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+    find_package(codecov)
+
+    add_coverage(${PROJECT_NAME})
+    add_coverage(tests)
+    list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")
+    coverage_evaluate()
+endif()
